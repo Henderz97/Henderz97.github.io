@@ -4,23 +4,21 @@
 <title> Zach </title>
   </head>
   <body>
-<style>
-demo {
-  text-align: center;
-}
-</style>
-<style>
-button {
-  text-align: center;
-}
-</style>
 <button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()"
-class = "center">
+onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>
-    
-<p id="demo"
-   class = "center"></p>
+<p id="demo"></p>
 
+    
+<h2>Intresting Facts</h2>
+<button onclick="myFunction()">Where can you find alligators and crocodiles?</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Alligators are mostly found in the southern United States and the crocodiles in Africa, India, South America, and southern United States. They are among the largest reptiles. Their bodies are covered with scales and they have webbed toes. They live in swamps and along the banks of rivers";
+}
+</script>
 </body>
 </html>
