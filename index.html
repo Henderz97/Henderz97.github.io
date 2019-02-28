@@ -8,7 +8,17 @@
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>
+  <style>
+    .button.move{margin-left:50px;}
+  </style>
+ <script> 
+var d = document.getElementById("button");
+d.addEventListener('click',function(){
+d.className = d.className + " move";
+});
+  </script>
 <p id="demo"></p>
+
 
 </body>
 </html>
